@@ -2,7 +2,7 @@
 
 echo press enter to init the swarm
 read x
-docker swarm init --advertise-addr 172.31.96.185
+docker swarm init --advertise-addr <IP>
 
 echo press enter to see docker info
 read x
